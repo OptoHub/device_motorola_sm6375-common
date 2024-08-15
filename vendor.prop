@@ -226,6 +226,9 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.gralloc.disable_ubwc=0
 vendor.hw.sf.IdleLazyResetThresholdT=1000
 
+# HWUI
+debug.sdm.support_writeback=0
+
 # IMS
 persist.vendor.ims.cam_sensor_delay=20
 persist.vendor.ims.disableDebugDataPathLogs=1
