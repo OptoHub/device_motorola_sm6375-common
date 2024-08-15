@@ -155,6 +155,9 @@ PRODUCT_PACKAGES += \
     libyuv.vendor:64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+PRODUCT_PACKAGES += \
+    GrapheneCamera
+
 # Charger
 WITH_LINEAGE_CHARGER := false
 
