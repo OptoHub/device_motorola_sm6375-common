@@ -125,7 +125,7 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(COMMON_PATH)/framework_manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/device_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/infinity/config/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
@@ -133,7 +133,7 @@ DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 BOARD_USES_METADATA_PARTITION := true
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/infinity/config/BoardConfigReservedSize.mk
 BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 30720000
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
@@ -172,7 +172,7 @@ TARGET_RECOVERY_WIPE := $(COMMON_PATH)/recovery/recovery.wipe
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
-include device/lineage/sepolicy/libperfmgr/sepolicy.mk
+include device/infinity/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
