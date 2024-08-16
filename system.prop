@@ -71,3 +71,12 @@ persist.sys.wfd.virtual=0
 
 #Disable MTE Async for system server
 arm64.memtag.process.system_server=off
+
+# About phone info
+ro.product.marketname=Motorola G34 5G
+ro.infinity.soc=Snapdragon 695 5G
+ro.infinity.battery=5000 mah
+ro.infinity.display=IPS LCD, 120 Hz
+ro.infinity.camera=50 mp + 2 mp, 16 mp
+ro.infinity.ram=8 GB
+ro.infinity.rom=128 GB
