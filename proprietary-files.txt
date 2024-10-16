@@ -1146,3 +1146,16 @@ vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
+
+# Extra
+vendor/lib/libupdateprof.qti.so
+vendor/lib/libdiag_system.qti.so
+vendor/lib/libqape.qti.so
+vendor/lib/libqesdk_ndk_platform.qti.so
+vendor/lib/liblistenjni.qti.so
+vendor/lib64/libupdateprof.qti.so
+vendor/lib64/libQOC.qti.so
+vendor/lib64/libdiag_system.qti.so
+vendor/lib64/libqape.qti.so
+vendor/lib64/libqesdk_ndk_platform.qti.so
+vendor/lib64/liblistenjni.qti.so
