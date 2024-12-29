@@ -205,6 +205,9 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/*.rc),\
 $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
 
+PRODUCT_PACKAGES += \
+    init.qcom.recovery.rc
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
