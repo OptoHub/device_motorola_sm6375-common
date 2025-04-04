@@ -330,6 +330,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
+    hardware/motorola \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # Telephony
