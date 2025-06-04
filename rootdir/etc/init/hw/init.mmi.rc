@@ -462,3 +462,10 @@ service vendor.sensors-hal-2-1-multihal /vendor/bin/hw/android.hardware.sensors@
     writepid /dev/cpuset/system-background/tasks
     capabilities BLOCK_SUSPEND
     rlimit rtprio 10 10
+
+   on property:vendor.post_boot.parsed=1Add commentMore actions
+    # IRQ Tuning
+    # IRQ 218: msm_drm  -> CPU 7
+    # IRQ 209: kgsl_3d0_irq -> CPU 6
+    write /proc/irq/218/smp_affinity_list 7
+    write /proc/irq/209/smp_affinity_list 6
